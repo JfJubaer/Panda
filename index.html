@@ -22,10 +22,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+              <a class="nav-link active" aria-current="page" href="#shoe">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#bag">Backpack</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Subscribe</a>
@@ -38,62 +38,45 @@
     </nav>
     <!-- slider -->
     <section class="container"> 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner ">
-          <div class="carousel-item active m-5 bg-warning p-5 border rounded">
-            <div class="row">
-              <div class="col-lg-7 d-flex align-items-center ">
-                <div>
-                  <h2>
-                    Cool Headphone
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea, voluptate reprehenderit quibusdam omnis earum? Dolores vel optio ipsam aspernatur aliquid voluptatibus blanditiis beatae dicta? Necessitatibus id ad commodi magni!</p>
-                <button class="btn btn-danger">Buy now</button>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <img src="images/banner-images/headphone.png" class="d-block w-100 " alt="...">
-              </div>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="d-flex p-5 bg-primary mb-5 rounded align-items-center" >
+            <div class="d-flex flex-column ">
+              <h2>Cool headset</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam harum reprehenderit consectetur architecto, iste debitis atque, consequuntur, soluta vero magni dolor ex quae tempore ab labore quod enim culpa amet.</p>
+              <button class="btn btn-warning me-auto">Buy</button>
             </div>
+            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item active bg-warning p-5 border rounded">
-            <div class="row">
-              <div class="col-lg-7 d-flex align-items-center">
-                <div>
-                  <h2>
-                    Cool Headphone
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea, voluptate reprehenderit quibusdam omnis earum? Dolores vel optio ipsam aspernatur aliquid voluptatibus blanditiis beatae dicta? Necessitatibus id ad commodi magni!</p>
-                <button class="btn btn-danger">Buy now</button>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <img src="images/banner-images/xbox.png" class="d-block w-100 " alt="...">
-              </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="d-flex p-5 bg-primary mb-5 rounded align-items-center" >
+            <div class="d-flex flex-column ">
+              <h2>Cool headset</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam harum reprehenderit consectetur architecto, iste debitis atque, consequuntur, soluta vero magni dolor ex quae tempore ab labore quod enim culpa amet.</p>
+              <button class="btn btn-warning me-auto">Buy</button>
             </div>
+            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item active bg-warning p-5 border rounded">
-            <div class="row">
-              <div class="col-lg-7 d-flex align-items-center">
-                <div>
-                  <h2>
-                    Cool Headphone
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea, voluptate reprehenderit quibusdam omnis earum? Dolores vel optio ipsam aspernatur aliquid voluptatibus blanditiis beatae dicta? Necessitatibus id ad commodi magni!</p>
-                <button class="btn btn-danger">Buy now</button>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <img src="images/banner-images/tv.png" class="d-block w-100 "  alt="...">
-              </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="d-flex p-5 bg-primary mb-5 rounded align-items-center" >
+            <div class="d-flex flex-column ">
+              <h2>Cool headset</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam harum reprehenderit consectetur architecto, iste debitis atque, consequuntur, soluta vero magni dolor ex quae tempore ab labore quod enim culpa amet.</p>
+              <button class="btn btn-warning me-auto">Buy</button>
             </div>
+            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
           </div>
           </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          
+         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -124,7 +107,7 @@
       </div>
      </div>
      </section>
-  <section class="container my-5">
+  <section class="container my-5" id="bag">
     <h2>Bags</h2>
     <div class="card-group">
       <div class="card border border-0 rounded shadow-lg me-5">
@@ -159,7 +142,7 @@
       </div>
     </div>
   </section>
-  <section class="container my-5">
+  <section class="container my-5" id="shoe">
     <h2>Shoes</h2>
     <div class="card-group">
       <div class="card border border-0 rounded shadow-lg me-5">
